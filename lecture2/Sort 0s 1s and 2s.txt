@@ -1,0 +1,22 @@
+class Solution
+{
+    public static void sort012(int a[], int n){
+        
+        
+        Arrays.sort(a);
+        
+        
+        // asdfaslfdk
+        // asdfsdafasdf
+        // fsdafksdjflksadjf
+        
+        // sdkfjdafkjflksd
+        
+    }
+}
+
+GFG :- https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sortBy=submissions
+
+CodeStudio :- https://www.codingninjas.com/studio/problems/sort-an-array-of-0s-1s-and-2s_892977?leftPanelTab=0
+
+LeetCode :- https://leetcode.com/problems/sort-colors/description/
