@@ -10,7 +10,7 @@ class abc{
         y = new int(0);
     }
 
-    int getX()
+    int getX() const
     {
         return x;   
     }
@@ -31,6 +31,8 @@ class abc{
 
 int main()
 {   
-    
+    abc a;
+    cout << a.getX() << endl;
+    cout << a.getY() << endl; 
     return 0;
 }
