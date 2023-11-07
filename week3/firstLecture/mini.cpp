@@ -25,8 +25,8 @@ int main()
     // // 2 to the power 31 - 1
     // cout << INT_MAX << endl;    
 
-    int arr[] = {10,8,31,4,3,1,51};
-    int size = 7;
+    int arr[] = {10,8,31,4,3,1,51,-10,0};
+    int size = 9;
     int minimum = findMinimumInArray(arr, size);
     cout << "Minimum Number is: " << minimum << endl;
 
