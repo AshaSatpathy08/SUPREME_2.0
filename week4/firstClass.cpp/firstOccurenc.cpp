@@ -5,9 +5,9 @@ using namespace std;
 int findFirstOccurence(int arr[], int n, int target) {
     int s = 0;
     int e = n - 1; 
-    int mid = (s+e)/2; //overflow k chances hain isme
-    int mid = s + (e-s)/2; //best practice
-    // int mid = s/2 + e/2;
+    //int mid = (s+e)/2; //overflow k chances hain isme
+    // int mid = s + (e-s)/2; //best practice
+    int mid = s/2 + e/2;
     int ans = -1;
 
     while(s <= e){
