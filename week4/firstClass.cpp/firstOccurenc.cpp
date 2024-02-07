@@ -36,7 +36,7 @@ int findFirstOccurence(int arr[], int n, int target) {
 int main()
 {
     int arr[] = {10,20,30,30,30,40,50};
-    int target = 80;
+    int target = 30;
     int n = 7;
     int ansIndex = findFirstOccurence(arr, n , target);
         if(ansIndex == -1){
