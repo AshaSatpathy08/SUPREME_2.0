@@ -5,7 +5,10 @@ using namespace std;
 int findMinimumInArray(int arr[], int size)
 {
     int minAns = INT16_MAX;
+ 
 
+
+ 
     for(int i = 0; i < size; i++){
         if (arr[i] < minAns)
         {

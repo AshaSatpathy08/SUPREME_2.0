@@ -23,7 +23,6 @@ void countZeroOne(int arr[], int size){
 int main()
 {
     int arr[] = {0,0,0,1,1,0,1,1,0,1,1,0};  
-    int n = 12;
     int size = 12;
     countZeroOne(arr,size);
     return 0;
