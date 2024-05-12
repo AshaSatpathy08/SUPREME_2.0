@@ -38,7 +38,7 @@ void findMissing(int *a , int n){
     while (i < n){
         int index = a[i] - 1;
         if(a[i] != a[index]){
-            swap(a[i], a[index]);
+            swap(a[i], a[index]);  // jab "i" & "index" par values same ho jaye to loop ruk jaega
         }
         else{
             i++;
